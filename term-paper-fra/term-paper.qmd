@@ -1,0 +1,69 @@
+---
+title: "Comparing GDP-Oriented Models to Alternative Approaches to Measuring Wellbeing"
+author: "Kai-Lin Kwek-Rupp"
+format: 
+    pdf:
+        documentclass: article 
+        number-sections: true
+        margin-top: 1in
+        margin-bottom: 1in
+        margin-left: 1in
+        margin-right: 1in
+        linestretch:  1.5
+        fontsize: 12pt
+    html: default
+bibliography: references.bib
+---
+
+# Introduction
+
+Despite established critique of measuring well-being through GDP, policy makers, governments, and nonprofits still rely on it as an almost unquestioned indicator of a country's economic health. This research will contribute to efforts to diversify measures of well-being to have more accurate analysis and more precise and pragmatic policy solutions which will result in a more equitable world.
+
+# Background and Research Question
+
+GDP fails to account for inequality, environmental degradation, and non-market activity like care-work, which creates a gap between statistical measures and public perception [@stiglitz2009report]. Current compounding crises– from climate change to famine to pandemics– show the importance of focusing not just on economic growth, but also the quality of life of citizens. The concept of GDP was created during the second world war as a method for calculating and optimizing production given Britain's available resources [@kapoor2019gdp]. The model was not adapted to translate its wartime utility into peacetime applicability. As a result, policies based solely on GDP analysis often fail to effectively raise quality of life.
+
+In recent years, a number of academics and advocates have pushed for a more expansive definition and collection of well-being data. Current proposals from the UN High-Level Advisory Board on Economic and Social Affairs propose measuring labor market indicators, the proportion of a population that can afford a nutritious diet, time-use aggregated by gender, and carbon emissions data, to understand a more representative and nuanced view of well-being [@ghosh2022count].
+
+## Main Research Question
+
+How do alternative measures of well-being compare to GDP in accurately reflecting the quality of life in countries with diverse economic and political systems?
+
+## Secondary Research Questions
+
+1. In what ways does GDP fail to capture the nuances of well-being across countries with different income levels, governance structures, and economic models, namely the United States, Norway, and Bhutan?
+2. What insights can be gained from comparing redistributive policies in countries like Norway with market-driven approaches in the United States, to the happiness-driven policies taken in Bhutan?
+
+# Potential Data Sources
+
+1. GDP: International Monetary Fund World Economic Outlook (WEO)
+2. Income Inequality: World Bank's World Development Indicators (WDI)
+3. Environmental Indicators: UN Environment Programme (UNEP)
+4. Nutrition: Food and Agriculture Organization Food Security Indicators (FAO)
+5. Happiness: World Happiness Report
+
+# Potential Approach
+
+This study will compare GDP rankings and other well-being indicators. It will then utilize correlation and regression analyses to explore the relationship between GDP and other well-being measures. In an ideal world, this study will create a well-being index through a composite of data on income inequality, environmental impact, health, labor market conditions, and overall happiness.
+
+The quantitative analysis will be combined with a qualitative policy analysis of each state's approach to measuring well-being and enacting policy changes. This will include case studies of specific interventions of enhancing well-being to understand how the concept is understood and prioritized in different political and economic contexts.
+
+# Expected Findings
+
+This study will likely show significant differences between GDP and alternative measures of well-being. Specifically, countries like the United States which boasts a higher GDP may have lower quality of life when including factors like income inequality and environmental sustainability. Regression analyses will likely show varying degrees of association between GDP and different well-being indicators. While there may be some correlation in factors like health (as it relates to production), there may be significantly less correlation about factors like environmental degradation.
+
+# Conclusion
+
+The policy implications suggest that a reliance on GDP alone may lead to an incomplete understanding of a nation's true well being, and this study will demonstrate the need for policy makers to incorporate a broader and more diverse set of indicators into assessments of economic health.
+
+# GitHub Repository
+
+The data analysis and code for this project will be available in the following GitHub repository: [https://github.com/kailinkwekrupp/GDP-vs-other-models](https://github.com/kailinkwekrupp/GDP-vs-other-models)
+
+This repository will contain all data processing scripts, analysis code, and the final paper in Quarto format.
+
+# References
+
+Stiglitz, Joseph E., Amartya Sen, and Jean-Paul Fitoussi, 2009. “  Report by the Commission on  the Measurement of Economic Performance and Social Progress.”  Paris: CMEPSP 
+Ghosh, Jayati. 2022. “  Let’s Count What Really Matters.  ” Project Syndicate. June 16, 2022  
+Kapoor, Amit and Bibek Debroy. 2019.”  GDP is Not a Measure of Human Well-Being.”  Harvard  Business Review. October 4th. 2019. 
