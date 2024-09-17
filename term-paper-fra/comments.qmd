@@ -1,0 +1,24 @@
+Dear Kai-Lin
+
+I think your proposal is very ambitious, and may need to refocus more into a more specific research question/data driven approach. 
+
+- Research question. When you say "how alternative measures of well-being ... reflect the quality of life", you still have a problem of defining quality of life. This gets a bit more complicated when you add "diverse economic and political settings"
+- your secondary questions also need to be more specific. Think about them as steps to take to answer your main question.
+
+I have to say, this may not be my first thought for an applied econometrics paper, but I think you could still make an interesting paper out of it. Let me provide some suggestions:
+
+1. This paper will require quite a bit of work on both ends. Data collection and theorethical framework. Different from other papers, I think you need to start with the literature review, discussing the critiques of GDP (as you started), and then move to the literature on alternative measures of well-being, their Pros and Cons. This will also tell you what type of data you need to collect.
+
+2. Once you have a structure of the literature, you can move to the data. I think on this regard, you have a good start. The idea would be to collect country level data on GDP (per capita), as well as data to construct all of the alternative measures of well-being you cover in your literature review. This will require some data cleaning and manipulation, as well as the actual construction of the alternative measures.
+
+Your methodology section will need to cover the datails on this index or measure contruction. Again, this will depend strongly on the literature review, so start working on that for the next step/report. At the very least, you should have a list of papers, with the proposed measures, and a checklist if you will be able to construct them.
+
+3. For the analysis, you could use a mix of scatter plots, and correlation analysis. The idea would be to show how much all this measures relate to each other, specially to GDP. You can also provide your own view on which one Or ones are better at capturing quality of life. 
+
+Analysis of Policies would be too much for a term paper, because I dont expect you to review all the policies of all the countries in the world. You could do cluster analysis, where you "group" countries by some common characteristics (low-income, middle-income, high-income, LAC, MENA, etc) and see if the measures behave differently across these groups. And discuss them in the context of the literature review, and what this countries are known for.
+
+You could also show how Rankings change when you use different measures, which have different implications for policy. (Say a country that values more happiness than GDP growth, probably would rank higher with one measure than the other).
+
+Overall, I think this is a good idea for a term paper, perhaps even a MA thesis. You will need to focus on the theoretical framework, and use that information to decide what data you need to collect. 
+
+Grade: 5/5

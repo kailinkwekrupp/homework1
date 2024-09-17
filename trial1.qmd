@@ -15,13 +15,30 @@ author: "Kai-Lin Kwek-Rupp"
 bibliography: references.bib
 ---
 
+# Comments {.unnumbered}
+
+- Seems few of the comments I did earlier were not changed. Remember, to update you repository with the latest version of the file you need to "commmit" and "push" the changes. You should also be working on your local repository, so you dont need to copy and paste the content from other folders.
+
+- If you are going to refer to a file, that file HAS to be located in the same folder as your QMD. (or somewhere within the repository). I made those changes and added the image and the reference.bib file.
+
+- Tags should not have special characters. For example `fig-D&D` could be `fig-DnD` or `fig-DungeonsAndDragons`. `&` is not a valid character for tags.
+
+- For headers, you need to add a space after the `#`. For example `#Introduction` should be `# Introduction`.
+
+- Be consistent with tags and cross-references. For example, your table tag was `@tbl-resources`, but you were using `@tbl-Table1`. 
+
+- Add a `# References{.unnunmbered}` section at the end of the document. 
+  
+- Grade: 8/10
 
 # Introduction
+
 Dungeons and Dragons (D&D) is a popular tabletop role-playing game that has captivated players for decades. This report explores the mathematical underpinnings of D&D, focusing on the probability distributions of dice rolls and their impact on gameplay. We will examine the statistical nature of character abilities, combat outcomes, and skill checks, providing insights into the game’s mechanics through equations, data visualization, and tabular analysis.
 
 # Main Body
 
 ## The Probability of Adventure
+
 At the heart of D&D lies the rolling of dice, particularly the iconic twenty-sided die (d20). The probability of rolling any number on a d20 is uniform, but the outcomes of these rolls can be modified by character abilities and situational modifiers. The probability of success for any given action can be expressed as:
 
 $$
@@ -34,17 +51,19 @@ Where DC is the Difficulty Class of the task, and the modifier is the character�
 
 Character creation in D&D often involves rolling dice to determine ability scores. The most common method is rolling 4d6 and dropping the lowest die. Let’s visualize the distribution of these rolls:
 
-:::{#fig-DistributionofD&DScores fig-pos="H"}
+:::{#fig-DistributionofDDScores fig-pos="H"}
 
-![](DistributionofD&DScores.png)
+![](figure1.png)
+
 Distribution of D&D Ability Scores (4d6 drop lowest)
 
 :::
 
-Figure @fig-DistributionofD&DScores illustrates the distribution of ability scores using the 4d6 drop lowest method. This bell-shaped curve demonstrates why most characters have average abilities, with exceptional scores being rare.
+@fig-DistributionofDDScores illustrates the distribution of ability scores using the 4d6 drop lowest method. This bell-shaped curve demonstrates why most characters have average abilities, with exceptional scores being rare.
 
-#Combat Outcomes
-Combat in D&D involves a complex interplay of attack rolls, damage calculations, and defensive abilities. Table Table 1 summarizes the average damage output for different weapon types:
+# Combat Outcomes
+
+Combat in D&D involves a complex interplay of attack rolls, damage calculations, and defensive abilities. @tbl-resources summarizes the average damage output for different weapon types:
 
 :::{#tbl-resources tbl-pos="H"}
 
@@ -52,23 +71,24 @@ Combat in D&D involves a complex interplay of attack rolls, damage calculations,
 |-------------|----------------|---------------------|
 | Dagger      | 2.5            | 5%                  |             
 | Longsword   | 4.5            | 5%                  |            
-| Greataxe    | 6.5            | 5%                  |        
+| Greataxe    | 6.5            | 5%                  |      
+
 Average Damage Output by Weapon Type
 
 :::
 
-As shown in @tbl-Table1, weapon choice significantly impacts potential damage output, with larger weapons generally dealing more damage at the cost of other factors like weight and required strength.
+As shown in @tbl-resources, weapon choice significantly impacts potential damage output, with larger weapons generally dealing more damage at the cost of other factors like weight and required strength.
 
 # The Role of Randomness
 
 While skill and strategy play crucial roles in D&D, the element of chance introduced by dice rolls adds excitement and unpredictability to the game. According to (@tormey2019), this balance between player agency and random chance is what makes D&D both challenging and engaging. The interplay between player decisions and dice rolls creates a unique narrative experience in each game session.
-As shown in @tbl-resources, weapon choice significantly impacts potential damage output, with larger weapons generally dealing more damage at the cost of other factors like weight and required strength.
-[^1]This simplified equation assumes a linear probability distribution and does not account for critical successes or failures, which are typically represented by rolling a natural 20 or 1, respectively.
+  
 
 # Conclusion
-This report has explored the mathematical foundations of Dungeons and Dragons, examining probability distributions, visualizing ability score generation, and analyzing combat mechanics. We’ve seen how equations like @eq-Equation1 govern the core mechanics of the game, while visualizations like @fig-DistributionofD&DScores provide insights into character creation. The balance of strategy and randomness, exemplified by the combat data in @tbl-Table1, contributes to the enduring appeal of D&D as both a game and a storytelling medium.
 
-References
+This report has explored the mathematical foundations of Dungeons and Dragons, examining probability distributions, visualizing ability score generation, and analyzing combat mechanics. We’ve seen how equations like @eq-Equation1 govern the core mechanics of the game, while visualizations like @fig-DistributionofDDScores provide insights into character creation. The balance of strategy and randomness, exemplified by the combat data in @tbl-resources, contributes to the enduring appeal of D&D as both a game and a storytelling medium.
+
+# References {.unnumbered}
 
 ::: {#refs}
 :::
