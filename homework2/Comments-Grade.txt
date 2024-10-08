@@ -1,0 +1,5 @@
+HW2
+Grade 2/10
+You provided a dofile, but you really need to provide a document presenting your results.
+
+
